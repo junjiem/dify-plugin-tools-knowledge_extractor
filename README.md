@@ -1,8 +1,7 @@
 ## Dify 1.0 Plugin Knowledge Extractor Tool
 
 
-**Author:** [Junjie.M](https://github.com/junjiem)  
-**Version:** 0.0.1  
+**Author:** [Junjie.M](https://github.com/junjiem)   
 **Type:** tool  
 **Github Repo:** [https://github.com/junjiem/dify-plugin-tools-knowledge_extractor](https://github.com/junjiem/dify-plugin-tools-knowledge_extractor)   
 **Github Issues:** [issues](https://github.com/junjiem/dify-plugin-tools-knowledge_extractor/issues)  
