@@ -31,13 +31,14 @@ Can install the plugin using the GitHub repository address. Visit the Dify platf
 ![install_plugin_via_github](_assets/install_plugin_via_github.png)
 
 
+
 ---
 
 
 
 ### FAQ
 
-#### How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？
+#### 1. How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？
 
 **Issue**: If you encounter the error message: plugin verification has been enabled, and the plugin you want to install has a bad signature, how to handle the issue?
 
@@ -48,4 +49,13 @@ Once this field is added, the Dify platform will allow the installation of all p
 
 **解决办法**：在 .env 配置文件的末尾添加 FORCE_VERIFYING_SIGNATURE=false 字段即可解决该问题。
 添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。
+
+
+#### 2. How to install the offline version 如何安装离线版本
+
+Scripting tool for downloading Dify plugin package from Dify Marketplace and Github and repackaging [true] offline package (contains dependencies, no need to be connected to the Internet).
+
+从Dify市场和Github下载Dify插件包并重新打【真】离线包（包含依赖，不需要再联网）的脚本工具。
+
+Github Repo: https://github.com/junjiem/dify-plugin-repackaging
 
